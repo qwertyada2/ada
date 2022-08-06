@@ -1,5 +1,4 @@
 #include<iostream>
-#include<stdlib.h>
 using namespace std;
 int max( int a,int b)
 {
@@ -14,7 +13,7 @@ int main()
     int n,m,i,j,w;
     cout<<"Enter the number of weights";
     cin>>n;
-    cout<<"Enter the maximum size of bag";
+    cout<<"ENter the maximum size of bag";
     cin>>m;
     int p[n+1],wt[n+1],k[n+1][m+1];
     p[0]=0;wt[0]=0;
