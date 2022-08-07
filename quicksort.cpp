@@ -26,7 +26,7 @@ for(i=1;i<=100;i++)
 {int a[n];for(j=0;j<n;j++)
 a[j]=rand()%1000;
 clock_t start=clock();
-quicksort(a,0,n-1);clock_t end=clock();double t=(double)(end-start)/CLOCKS_PER_SEC;
+quicksort(a,0,n);clock_t end=clock();double t=(double)(end-start)/CLOCKS_PER_SEC;
 cout<<n<<"\t"<<t<<"\n";
 n=n+10000;}
 return 0;
